@@ -8,5 +8,63 @@
 }
 
 .nav-main{
-   background-color: cyan; 
+   background-color: rgba(174, 174, 174, 0.57); 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 90px;
+   padding: 0 30px;
+   height: 70px;
+}
+
+.nav-main li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    font-size: large;
+}
+
+.logo, .nav-main{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+.logo:hover{
+    color: rgb(140, 11, 11);
+    cursor: pointer;
+    scale: 1.20;
+}
+
+.nav-ul li a:hover{
+    color: rgb(140, 11, 11);
+    scale: 1.20;
+}
+
+.nav-social li a:hover{
+    color: rgb(140, 11, 11);
+}
+
+ul{
+    list-style: none;
+}
+
+.img:hover{
+    scale: 1.20;
+}
+
+.nav-social{
+    display: flex;
+    gap: 30px;
+}
+
+.HOME:hover{
+    scale: 1.20;
 }
