@@ -15,6 +15,9 @@
    gap: 90px;
    padding: 0 30px;
    height: 70px;
+   margin: 5px;
+   border: solid 3px rgb(135, 22, 7);
+   border-radius: 20px;
 }
 
 .nav-main li a{
@@ -63,8 +66,4 @@ ul{
 .nav-social{
     display: flex;
     gap: 30px;
-}
-
-.HOME:hover{
-    scale: 1.20;
 }
